@@ -1,0 +1,27 @@
+{
+  "name": "phonebook_backend",
+  "version": "1.0.0",
+  "description": "backend of react phone book application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Akwesi-bonah/mooc_full_stack_bankend.git"
+  },
+  "author": "Akwesi-Bonah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akwesi-bonah/mooc_full_stack_bankend/issues"
+  },
+  "homepage": "https://github.com/Akwesi-bonah/mooc_full_stack_bankend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
