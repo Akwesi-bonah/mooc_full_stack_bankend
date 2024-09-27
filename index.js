@@ -9,9 +9,12 @@ morgan.token('body', (req) => {
   });
 const format = ':method :url :status :res[content-length] - :response-time ms :body';
 const POST = process.env.PORT || 3001
+
+
 app.use(express.json())
 app.use(morgan(format))
 app.use(cors())
+app.use(express.static('dist'))
 
 app.get('/status', (_request, response) => {
     response.status(200)
